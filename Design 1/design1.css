@@ -5,3 +5,48 @@
     --secondary-color-txt: #335c81;
     --color-bkg: #616163;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: var(--primarty-color-bkg);
+    height: 400px;
+}
+footer{
+    background: var(--primarty-color-bkg);
+    height: 200px;
+}
+nav li a{
+    color: var(--primary-color-txt);
+    text-decoration: none;
+}
+h2{
+    color: var(--secondary-color-bkg);
+    margin: 0;
+}
+h3{
+    color: var(--primary-color-txt);
+    margin: 0;  
+}
+#heading-1, #heading-2{
+    background: var(--primary-color-txt);
+    margin: 0;
+    height: 200px;
+}
+#red-section{
+    background: var(--secondary-color-bkg);
+    display: flex;
+    margin: 0;
+    padding: 15px;
+}
+.grey-bg{
+    background: var(--color-bkg);
+    text-align: center;
+}
+li{
+    display: inline;
+}
+p{
+    color: var(--primarty-color-bkg);
+}
