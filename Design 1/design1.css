@@ -8,22 +8,87 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: open Sans;
 }
 header{
     background: var(--primarty-color-bkg);
-    height: 400px;
+    height: 500px;
+    color: var(--primary-color-txt);
+}
+#header-img{
+    text-align: center;
+    position: relative;
+}
+#header-img img{
+    opacity: 39%;
+    position: relative;
+
+    top: 55%;
+    left: 10%;
+}
+#header-img h1{
+    color: var(--secondary-color-txt);
+    font-size: 60px;
+    /* Postion for background img*/
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 20%;
+}
+#header-img p{
+    color: var(--primary-color-txt) !important;
+    font-size: 18px;
+    /* Postion for background img*/
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 60%;
+}
+#header-img hr{
+    color: var(--secondary-color-bkg);
+    width: 660px;
+    border: 3px var(--secondary-color-bkg) solid;
+
+    /* Postion for background img*/
+    position: absolute;
+    right: 3%;
+    left: 3%;
+    
+}
+#hr-1{
+    top: 30%;
+}
+#hr-2{
+    bottom: 5%;
 }
 footer{
     background: var(--primarty-color-bkg);
     height: 200px;
 }
+nav{
+    padding: 10px 10px 20px 10px;
+}
+nav h2{
+    display: inline-block;
+    color: var(--primary-color-txt);
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
 nav li a{
     color: var(--primary-color-txt);
     text-decoration: none;
+    font-size: 18px;
+}
+li{
+    display: inline;
+    margin: 10px;
 }
 h2{
     color: var(--secondary-color-bkg);
     margin: 0;
+    font-size: 24px;
 }
 h3{
     color: var(--primary-color-txt);
@@ -32,21 +97,52 @@ h3{
 #heading-1, #heading-2{
     background: var(--primary-color-txt);
     margin: 0;
-    height: 200px;
+    height: 320px;
+}
+#heading-1 h2{
+    margin-left: 30px;
+    padding-top: 50px;
+}
+#heading-2 h2{
+    margin-left: 30px;
+    padding-top: 50px;
+    text-align: center;
+}
+#heading-1 p{
+    width: 500px;
+    margin: 30px;
+}
+#heading-2 p{
+    width: 500px;
+    margin:  30px auto;
 }
 #red-section{
     background: var(--secondary-color-bkg);
     display: flex;
     margin: 0;
+    padding: 25px 40px;
+    text-align: center;
+}
+#red-section img{
+    height: 150px;
+    margin: auto;
+    padding: 15px 0 25px 0;
+    margin-top: 15px;
+}
+.grey-bg :nth-child(2){
+    padding: 15px;
+}
+.grey-bg p{
     padding: 15px;
 }
 .grey-bg{
     background: var(--color-bkg);
     text-align: center;
+    margin: auto 20px;
+    padding: 5px;
 }
-li{
-    display: inline;
-}
+
 p{
     color: var(--primarty-color-bkg);
+    font-size: 14px;
 }
