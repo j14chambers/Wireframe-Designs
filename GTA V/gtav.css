@@ -1,3 +1,43 @@
 body{
 	color: ##171915;
+	font-size: 20px;
+	font-family: 'Niramit', sans-serif;
+	background-color: #d6ba71;
+}
+h1{
+	font-family: 'Fugaz One', cursive;
+	text-align: center;
+	font-size: 40px;
+	color: #467717;
+}
+h2{
+	font-family: 'Fugaz One', cursive;
+	font-size: 30px;
+}
+
+header img{
+	width: 100%;
+}
+
+section{
+	border-top: solid #467717 40px;
+	margin: 100px 20px;
+	padding: 100px 20px;
+	display: flex;
+	align-items: center;
+	background-color: white;
+}
+
+section div{
+	flex: 1; 
+}
+section p{
+	padding: auto 20px;
+}
+.img-section{
+	display: flex;
+}
+img{
+	flex: 1;
+
 }
