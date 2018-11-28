@@ -1,5 +1,5 @@
 body{
-	color: ##171915;
+	color: #171915;
 	font-size: 20px;
 	font-family: 'Niramit', sans-serif;
 	background-color: #d6ba71;
@@ -7,7 +7,7 @@ body{
 h1{
 	font-family: 'Fugaz One', cursive;
 	text-align: center;
-	font-size: 40px;
+	font-size: 60px;
 	color: #467717;
 }
 h2{
@@ -40,4 +40,31 @@ section p{
 img{
 	flex: 1;
 
+}
+footer{
+	background-color: #171915;
+	color: white;
+}
+nav{
+	text-align: center;
+}
+ul{
+	text-decoration: none;
+}
+li{
+	display: inline-block;
+	margin: 15px 0;
+	padding: 5px 30px;
+	border: solid #467717 5px;
+	border-radius: 5px;
+	background-color: white;
+}
+footer a{
+	color: #467717;
+	text-decoration: none;
+	font-size: 25px;
+}
+li:hover, a:hover{
+	background-color: #171915;
+	color: white;
 }
