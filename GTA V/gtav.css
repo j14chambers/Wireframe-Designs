@@ -24,6 +24,7 @@ section{
 	margin: 100px 20px;
 	padding: 100px 20px;
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	background-color: white;
 }
@@ -36,14 +37,17 @@ section p{
 }
 .img-section{
 	display: flex;
+	flex-wrap: wrap;
 }
-img{
+.img-section img{
 	flex: 1;
 
 }
 footer{
 	background-color: #171915;
 	color: white;
+	margin: 10px;
+	padding-top: 20px;
 }
 nav{
 	text-align: center;
@@ -67,4 +71,52 @@ footer a{
 li:hover, a:hover{
 	background-color: #171915;
 	color: white;
+}
+
+footer p{
+	margin: auto 20px;
+	font-size: 15px;
+	padding-bottom: 30px;
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 1024px) {
+  
+  .img-section{
+	margin: 10px;
+  }
+.img-section img{
+	flex-basis: 50%;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  header img{
+  	max-width: 100%;
+  	height: auto;
+  }
+  iframe{
+  	max-width: 300px;
+  	height: auto;
+  }
+  .img-section{
+  	display: inline-block;
+	margin: 10px;
+  }
+.img-section img{
+	width: 100%;
+
+  }
+  footer h1{
+  	font-size: 30px;
+  }
+  
 }
