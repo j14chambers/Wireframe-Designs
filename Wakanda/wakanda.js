@@ -40,7 +40,8 @@ function nameGenerator(inputName){
     wakandaName = wakandaName.join('');
     console.log(wakandaName);
     //Return the name to the html file.
-     $('#results').html('<h2>You no longer go by '+ inputName + '. You now will be known as ' + wakandaName.charAt(0).toUpperCase() + wakandaName.slice(1) + '.</h2>' );
+     $('#results').html('<h2>You no longer go by '+ inputName + '. You now will be known as ' + '<br> ' + '</h2>' );
+     $('#wakanda-name').html('<h2>' +wakandaName.charAt(0).toUpperCase() +  wakandaName.slice(1) + '</h2>');
      
      resetForm();
 };
