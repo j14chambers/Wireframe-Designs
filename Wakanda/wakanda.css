@@ -19,7 +19,7 @@ h1{
 
 }
 
-div{
+.margin-div{
 	padding: 20px 40px;
 	margin: 10px;
 }
@@ -48,19 +48,23 @@ input{
 	font-family: 'Open Sans', sans-serif;
 }
 
-
+section{
+	margin: 15% auto;
+}
 #center{
 	text-align: center;
-	margin: auto;
 }
 
 #results, #wakanda-name{
 	text-align: center;
 	color: #0c0b13;
 	font-family: 'Open Sans', sans-serif;
+	margin: 0;
 }
 #wakanda-name h2{
 	font-size: 60px;
+	padding: 0;
+	margin: 0;
 }
 .box-header{
 	background-color: #0c0b13;
@@ -90,9 +94,10 @@ a:hover{
 	color: #0c0b13;
 }
 footer{
-	border-top: solid 10px #fff;
+	border-top: solid 20px #fff;
 	font-size: 20px;
-	color: #c4a8ff;
+	text-align: center;
+	color: #fff;
 	margin: 20px inherit;
 	padding: 20px;
 	background-color: #664eae;
