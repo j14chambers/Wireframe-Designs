@@ -1,0 +1,34 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: #aaa;
+  background-color: black; }
+
+h1, h3, h4 {
+  font-family: 'Lato', sans-serif; }
+
+h1 {
+  font-size: 60px;
+  text-align: center; }
+
+nav li {
+  display: inline;
+  padding: 20px;
+  margin: 5px; }
+nav a {
+  text-decoration: none;
+  color: #d10025;
+  font-size: 25px; }
+
+section {
+  margin: 20px 0;
+  padding: 15px; }
+
+.flex-container {
+  display: flex; }
+  .flex-container .flex-box {
+    flex: 1; }
+  .flex-container .flex-box:nth-child(1) {
+    flex: 3; }
+
+/*# sourceMappingURL=residentevil.css.map */
