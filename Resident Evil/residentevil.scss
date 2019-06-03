@@ -39,6 +39,22 @@ section{
 		flex: 1;
 	}
 	.flex-box:nth-child(1){
-		flex: 3;
+		flex: 2;
+		img{
+			width: 100%;
+		}
+	}
+}
+#about{
+	.platform{
+	padding: 20px;
+		li{
+			list-style: none;
+		}
+
+		img{
+			width: 130px;
+			height: 130px;
+		}
 	}
 }
