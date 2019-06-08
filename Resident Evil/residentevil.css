@@ -25,9 +25,12 @@ section {
   padding: 15px; }
 
 .flex-container {
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
   .flex-container .flex-box {
-    flex: 1; }
+    flex: 1;
+    padding: 20px;
+    margin: 10px; }
   .flex-container .flex-box:nth-child(1) {
     flex: 2; }
     .flex-container .flex-box:nth-child(1) img {
@@ -40,5 +43,11 @@ section {
   #about .platform img {
     width: 130px;
     height: 130px; }
+
+.list-character p {
+  font-size: 18px; }
+
+#scenarios .flex-box:nth-child(1) {
+  flex: 1; }
 
 /*# sourceMappingURL=residentevil.css.map */
