@@ -8,7 +8,6 @@ body {
 h1, h3, h4 {
   font-family: 'Lato', sans-serif; 
 }
-
 h1 {
   font-size: 60px;
   text-align: center; 
@@ -27,12 +26,13 @@ nav a {
 
 section {
   margin: 20px 0;
-  padding: 15px; 
+  padding: 40px; 
 }
 
 .flex-container {
   display: flex;
   justify-content: space-between; 
+  flex-wrap: wrap;
 }
   .flex-container .flex-box {
     flex: 1;
@@ -64,8 +64,20 @@ section {
     height: 195px;
     width: 260px;
   }
-#scenarios .flex-box:nth-child(1) {
-  flex: 1; 
+  .list-character div{
+    background: #aaa;
+    color: black;
+  }
+  .list-character h4{
+    color: #d10025;
+    font-size: 30px;
+    text-align: center;
+  }
+#scenarios h3{
+  color: #d10025; 
+}
+#scenarios h3:nth-last-child(odd){
+  padding-top: 100px;
 }
 
 /*# sourceMappingURL=residentevil.css.map */
