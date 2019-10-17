@@ -33,18 +33,13 @@ section {
   display: flex;
   justify-content: space-between; 
   flex-wrap: wrap;
+  flex-basis: 25%;
 }
   .flex-container .flex-box {
     flex: 1;
     padding: 20px;
     margin: 10px; 
   }
-  .flex-container .flex-box:nth-child(1) {
-    flex: 2; 
-  }
-    .flex-container .flex-box:nth-child(1) img {
-      width: 100%; 
-    }
 
 #about .platform {
   padding: 20px; 
@@ -53,15 +48,19 @@ section {
     list-style: none; 
   }
   #about .platform img {
-    width: 130px;
+    width: 30%;
     height: 130px; 
+  }
+
+  .flex-box img{
+    width: 100%;
   }
 
 .list-character p {
   font-size: 18px; 
 }
 .list-character img{
-    height: 195px;
+    height: 200px;
     width: 260px;
   }
   .list-character div{
@@ -80,4 +79,3 @@ section {
   padding-top: 100px;
 }
 
-/*# sourceMappingURL=residentevil.css.map */
