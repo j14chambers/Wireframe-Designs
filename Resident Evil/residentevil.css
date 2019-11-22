@@ -4,7 +4,9 @@ body {
   color: #aaa;
   background-color: black; 
 }
-
+h2{
+  font-size: 40px;
+}
 h1, h3, h4 {
   font-family: 'Lato', sans-serif; 
 }
@@ -26,7 +28,7 @@ nav a {
 
 section {
   margin: 20px 0;
-  padding: 40px; 
+  padding: 10px 40px; 
 }
 
 .flex-container {
@@ -35,26 +37,36 @@ section {
   flex-wrap: wrap;
   flex-basis: 25%;
 }
-  .flex-container .flex-box {
+.flex-box {
     flex: 1;
-    padding: 20px;
+    padding: 15px;
     margin: 10px; 
   }
-
-#about .platform {
-  padding: 20px; 
+#about .flex-box :nth-child(1){
+  flex-basis: 100%;
 }
-  #about .platform li {
+.play{
+  flex: 2;
+  margin-right: 100px;
+}
+.platform {
+  padding: 20px; 
+  width: 60%;
+  align-content: center;
+  margin: auto;
+}
+#about li {
     list-style: none; 
-  }
-  #about .platform img {
+}
+.platform img {
     width: 30%;
     height: 130px; 
-  }
+    flex: 1;
+}
 
-  .flex-box img{
+.flex-box img{
     width: 100%;
-  }
+}
 
 .list-character p {
   font-size: 18px; 
@@ -79,3 +91,8 @@ section {
   padding-top: 100px;
 }
 
+footer{
+  background: #d10025;
+  display: flex;
+  justify-content: center;
+}
